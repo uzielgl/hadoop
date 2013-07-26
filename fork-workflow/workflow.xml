@@ -3,7 +3,7 @@
 
 	<fork name="fork">
 		<path start="noaaMonterrey"/>
-		<path start="ncdc"/>
+		<path start="noaaNorway"/>
 	</fork>
 
 	<action name="noaaMonterrey">
@@ -45,7 +45,7 @@
 		<error to="fail"/>
 	</action>
 
-	<action name="ncdc">
+	<action name="noaaNorway">
 		<map-reduce>
       <job-tracker>${jobTracker}</job-tracker>
       <name-node>${nameNode}</name-node>
@@ -54,13 +54,13 @@
       </prepare>
       <configuration>
         <property>
-          <name>mapred.mapper.class</name>
-          <value>Ncdc$NcdcMapper</value>
-        </property>
-        <property>
-          <name>mapred.reducer.class</name>
-          <value>Ncdc$NcdcReducer</value>
-        </property>
+		  <name>mapred.mapper.class</name>
+		  <value>NoaaNorway$NoaaMapper</value>
+		</property>
+		<property>
+		  <name>mapred.reducer.class</name>
+		  <value>NoaaNorway$NoaaReducer</value>
+		</property>
         <property>
           <name>mapred.output.key.class</name>
           <value>org.apache.hadoop.io.Text</value>
@@ -71,7 +71,7 @@
         </property>        
         <property>
           <name>mapred.input.dir</name>
-          <value>/fork/in2</value>
+          <value>/fork/in1/Norway</value>
         </property>
         <property>
           <name>mapred.output.dir</name>
@@ -90,7 +90,7 @@
 			<job-tracker>${jobTracker}</job-tracker>
 			<name-node>${nameNode}</name-node>
 			<prepare>
-				<delete path="${nameNode}/fork/out2"/>
+				<delete path="${nameNode}/fork/out6"/>
 			</prepare>
 		<configuration>
 			<property>
@@ -115,7 +115,7 @@
 			</property>
 			<property>
 				<name>mapred.output.dir</name>
-				<value>/fork/out3</value>
+				<value>/fork/out6</value>
 			</property>
 		</configuration>
 	</map-reduce>
