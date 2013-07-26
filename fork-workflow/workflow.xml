@@ -6,6 +6,7 @@
 		<path start="noaaNorway"/>
 		<path start="noaaMayen"/>
 		<path start="oxford"/>
+		<path start="sydney"/>
 	</fork>
 
 	<action name="noaaMonterrey">
@@ -128,7 +129,7 @@
       <job-tracker>${jobTracker}</job-tracker>
       <name-node>${nameNode}</name-node>
       <prepare>
-        <delete path="${nameNode}/fork/out3"/>
+        <delete path="${nameNode}/fork/out4"/>
       </prepare>
       <configuration>
         <property>
@@ -154,6 +155,44 @@
         <property>
           <name>mapred.output.dir</name>
           <value>/fork/out4</value>
+        </property>
+      </configuration>
+    </map-reduce>
+    <ok to="join"/>
+		<error to="fail"/>
+	</action>
+	
+	<action name="sydney">
+		<map-reduce>
+      <job-tracker>${jobTracker}</job-tracker>
+      <name-node>${nameNode}</name-node>
+      <prepare>
+        <delete path="${nameNode}/fork/out5"/>
+      </prepare>
+      <configuration>
+        <property>
+		  <name>mapred.mapper.class</name>
+		  <value>Sydney$NoaaMapper</value>
+		</property>
+		<property>
+		  <name>mapred.reducer.class</name>
+		  <value>Sydney$NoaaReducer</value>
+		</property>
+        <property>
+          <name>mapred.output.key.class</name>
+          <value>org.apache.hadoop.io.Text</value>
+        </property>
+        <property>
+          <name>mapred.output.value.class</name>
+          <value>org.apache.hadoop.io.Text</value>
+        </property>        
+        <property>
+          <name>mapred.input.dir</name>
+          <value>/fork/in1/Sydney</value>
+        </property>
+        <property>
+          <name>mapred.output.dir</name>
+          <value>/fork/out5</value>
         </property>
       </configuration>
     </map-reduce>
