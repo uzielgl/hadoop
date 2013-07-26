@@ -1,0 +1,21 @@
+﻿Preparar estructura de directorios y datos de entrada/salida en HDFS
+hadoop fs -mkdir /pivot3/in 
+hadoop fs -mkdir /pivot3/out1
+hadoop fs -mkdir /pivot3/out2
+hadoop fs -copyFromLocal /mnt/hgfs/shared-folder/pivot3/jobs.txt /pivot3/in
+
+
+Copiar directorio base Oozie a HDFS
+hadoop fs -copyFromLocal /mnt/hgfs/shared-folder/pivot3/pivot3-workflow /pivot3
+
+
+Configurar  OOZIE_URL
+export OOZIE_URL=http://localhost:11000/oozie
+
+Ejecución del flujo de trabajo
+/opt/mapr/oozie/oozie-3.3.0/bin/oozie job -config /mnt/hgfs/shared-folder/pivot3/pivot3.properties -run     
+
+Mostrar el estado actual del flujo de trabajo
+/opt/mapr/oozie/oozie-3.3.0/bin/oozie job -info 
+
+

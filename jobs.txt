@@ -1,0 +1,289 @@
+2000,Architect,171025		
+2000,Bookkeeper,220113		
+2000,Carpenter,1712796		
+2000,Dentist,141323		
+2000,Engineer,396626		
+2000,Farmer,634832		
+2000,Gardener / Groundskeeper,1267931		
+2000,Household Worker,31353		
+2000,Insurance Agent,512838		
+2000,Librarian,38871		
+2000,Nurse,403441		
+2000,Operative,5837694		
+2000,Pharmacist,123677		
+2000,Railroad Conductor,54613		
+2000,Security Guard,1212189		
+2000,Taxi Cab Driver / Chauffeur,294801		
+2000,Typesetter,51064		
+2000,Veterinarian,39184		
+2000,Waiter / Waitress,595509		
+1850,Architect,405		
+1850,Bookkeeper,2225		
+1850,Carpenter,219647		
+1850,Dentist,2023		
+1850,Farmer,2415878		
+1850,Gardener / Groundskeeper,8596		
+1850,Household Worker,14966		
+1850,Insurance Agent,606		
+1850,Nurse,101		
+1850,Operative,192143		
+1850,Pharmacist,5461		
+1850,Railroad Conductor,404		
+1850,Security Guard,3134		
+1850,Taxi Cab Driver / Chauffeur,1212		
+1850,Typesetter,16068		
+1850,Waiter / Waitress,7184		
+1860,Architect,1707		
+1860,Bookkeeper,16847		
+1860,Carpenter,273528		
+1860,Dentist,5720		
+1860,Farmer,2586005		
+1860,Gardener / Groundskeeper,18751		
+1860,Household Worker,36635		
+1860,Insurance Agent,1806		
+1860,Librarian,100		
+1860,Nurse,101		
+1860,Operative,247834		
+1860,Pharmacist,9836		
+1860,Railroad Conductor,5217		
+1860,Security Guard,5921		
+1860,Taxi Cab Driver / Chauffeur,8330		
+1860,Typesetter,21878		
+1860,Veterinarian,101		
+1860,Waiter / Waitress,7926		
+1870,Architect,1914		
+1870,Bookkeeper,30849		
+1870,Carpenter,352340		
+1870,Dentist,7136		
+1870,Engineer,101		
+1870,Farmer,3118876		
+1870,Gardener / Groundskeeper,31048		
+1870,Household Worker,79495		
+1870,Insurance Agent,12458		
+1870,Librarian,302		
+1870,Nurse,1105		
+1870,Operative,609233		
+1870,Pharmacist,16085		
+1870,Railroad Conductor,8237		
+1870,Security Guard,13271		
+1870,Taxi Cab Driver / Chauffeur,13171		
+1870,Typesetter,31352		
+1870,Veterinarian,905		
+1870,Waiter / Waitress,18090		
+1880,Architect,3892		
+1880,Bookkeeper,62745		
+1880,Carpenter,387029		
+1880,Dentist,12171		
+1880,Farmer,4483723		
+1880,Gardener / Groundskeeper,41906		
+1880,Household Worker,200507		
+1880,Insurance Agent,13365		
+1880,Librarian,298		
+1880,Nurse,2294		
+1880,Operative,989348		
+1880,Pharmacist,28406		
+1880,Railroad Conductor,18353		
+1880,Security Guard,22650		
+1880,Taxi Cab Driver / Chauffeur,6883		
+1880,Typesetter,56060		
+1880,Veterinarian,2894		
+1880,Waiter / Waitress,27544		
+1900,Architect,10151		
+1900,Bookkeeper,158957		
+1900,Carpenter,600594		
+1900,Dentist,26222		
+1900,Engineer,1006		
+1900,Farmer,5535233		
+1900,Gardener / Groundskeeper,55665		
+1900,Household Worker,109734		
+1900,Insurance Agent,67332		
+1900,Librarian,805		
+1900,Mathematician,100		
+1900,Nurse,7541		
+1900,Operative,1052589		
+1900,Pharmacist,54859		
+1900,Railroad Conductor,55275		
+1900,Security Guard,59778		
+1900,Taxi Cab Driver / Chauffeur,54585		
+1900,Typesetter,104848		
+1900,Veterinarian,6837		
+1900,Waiter / Waitress,63437		
+1910,Architect,16624		
+1910,Bookkeeper,294208		
+1910,Carpenter,816886		
+1910,Dentist,41818		
+1910,Farmer,5765835		
+1910,Gardener / Groundskeeper,93958		
+1910,Household Worker,287427		
+1910,Insurance Agent,74801		
+1910,Nurse,22169		
+1910,Operative,1753668		
+1910,Railroad Conductor,60701		
+1910,Security Guard,80602		
+1910,Taxi Cab Driver / Chauffeur,81605		
+1910,Typesetter,119412		
+1910,Veterinarian,12344		
+1910,Waiter / Waitress,119657		
+1920,Architect,15439		
+1920,Bookkeeper,244835		
+1920,Carpenter,840929		
+1920,Dentist,56401		
+1920,Engineer,9888		
+1920,Farmer,6225184		
+1920,Gardener / Groundskeeper,39958		
+1920,Household Worker,108884		
+1920,Insurance Agent,119169		
+1920,Job Setter,2524		
+1920,Librarian,1313		
+1920,Nurse,8785		
+1920,Operative,1963909		
+1920,Pharmacist,69519		
+1920,Railroad Conductor,82636		
+1920,Security Guard,127651		
+1920,Taxi Cab Driver / Chauffeur,163471		
+1920,Typesetter,138562		
+1920,Veterinarian,14934		
+1920,Waiter / Waitress,109513		
+1930,Architect,18200		
+1930,Bookkeeper,234070		
+1930,Carpenter,852292		
+1930,Dentist,69763		
+1930,Engineer,12636		
+1930,Farmer,5791250		
+1930,Gardener / Groundskeeper,124869		
+1930,Household Worker,108678		
+1930,Insurance Agent,259333		
+1930,Job Setter,6571		
+1930,Librarian,2022		
+1930,Mathematician,505		
+1930,Nurse,4041		
+1930,Operative,2144940		
+1930,Pharmacist,89469		
+1930,Railroad Conductor,80889		
+1930,Security Guard,150635		
+1930,Taxi Cab Driver / Chauffeur,245170		
+1930,Typesetter,200197		
+1930,Veterinarian,12131		
+1930,Waiter / Waitress,154184		
+1940,Architect,19929		
+1940,Bookkeeper,454109		
+1940,Carpenter,741073		
+1940,Dentist,69505		
+1940,Farmer,5064557		
+1940,Gardener / Groundskeeper,186215		
+1940,Household Worker,188721		
+1940,Insurance Agent,232506		
+1940,Librarian,4836		
+1940,Nurse,19999		
+1940,Operative,2999021		
+1940,Pharmacist,79447		
+1940,Railroad Conductor,47656		
+1940,Security Guard,236592		
+1940,Typesetter,170993		
+1940,Veterinarian,11029		
+1940,Waiter / Waitress,205614		
+1950,Architect,24820		
+1950,Bookkeeper,177052		
+1950,Carpenter,973660		
+1950,Dentist,70950		
+1950,Engineer,78147		
+1950,Farmer,4225264		
+1950,Gardener / Groundskeeper,157029		
+1950,Household Worker,92978		
+1950,Insurance Agent,288469		
+1950,Job Setter,24555		
+1950,Librarian,6517		
+1950,Mathematician,1618		
+1950,Nurse,17356		
+1950,Operative,4057324		
+1950,Pharmacist,84842		
+1950,Railroad Conductor,55662		
+1950,Security Guard,261719		
+1950,Taxi Cab Driver / Chauffeur,210517		
+1950,Typesetter,172748		
+1950,Veterinarian,15063		
+1950,Waiter / Waitress,129961		
+1960,Architect,30179		
+1960,Bookkeeper,170070		
+1960,Carpenter,1100617		
+1960,Dentist,84779		
+1960,Engineer,152998		
+1960,Farmer,2766741		
+1960,Gardener / Groundskeeper,287768		
+1960,Household Worker,114267		
+1960,Insurance Agent,415632		
+1960,Job Setter,40441		
+1960,Librarian,12953		
+1960,Mathematician,5874		
+1960,Nurse,28988		
+1960,Operative,4986070		
+1960,Pharmacist,97311		
+1960,Railroad Conductor,63262		
+1960,Security Guard,352263		
+1960,Taxi Cab Driver / Chauffeur,182830		
+1960,Typesetter,181010		
+1960,Veterinarian,17730		
+1960,Waiter / Waitress,151423		
+1970,Architect,57091		
+1970,Bookkeeper,337040		|
+1970,Carpenter,1111775		
+1970,Dentist,90658		
+1970,Engineer,253425		
+1970,Farmer,1655668		
+1970,Gardener / Groundskeeper,543926		
+1970,Household Worker,100857		
+1970,Insurance Agent,509645		
+1970,Job Setter,91541		
+1970,Librarian,24742		
+1970,Mathematician,6907		
+1970,Nurse,90047		
+1970,Operative,5939103		
+1970,Pharmacist,107984		
+1970,Railroad Conductor,53684		
+1970,Security Guard,403058		
+1970,Taxi Cab Driver / Chauffeur,183626		
+1970,Typesetter,150058		
+1970,Veterinarian,17025		
+1970,Waiter / Waitress,178989		
+1980,Architect,107765		
+1980,Bookkeeper,226696		
+1980,Carpenter,1531584		
+1980,Dentist,125312		
+1980,Engineer,308454		
+1980,Farmer,1284012		
+1980,Gardener / Groundskeeper,570275		
+1980,Household Worker,57388		
+1980,Insurance Agent,536722		
+1980,Job Setter,57611		
+1980,Librarian,38669		
+1980,Mathematician,5543		
+1980,Nurse,154691		
+1980,Operative,5807712		
+1980,Pharmacist,122992		
+1980,Railroad Conductor,58455		
+1980,Security Guard,720590		
+1980,Taxi Cab Driver / Chauffeur,202071		
+1980,Typesetter,38944		
+1980,Veterinarian,32252		
+1980,Waiter / Waitress,227767		
+1990,Architect,143413		
+1990,Bookkeeper,239124		
+1990,Carpenter,1604105		
+1990,Dentist,148591		
+1990,Engineer,395357		
+1990,Farmer,868622		
+1990,Gardener / Groundskeeper,924326		
+1990,Household Worker,62976		
+1990,Insurance Agent,605552		
+1990,Job Setter,28718		
+1990,Librarian,50193		
+1990,Mathematician,4668		
+1990,Nurse,241714		
+1990,Operative,5338347		
+1990,Pharmacist,129075		
+1990,Railroad Conductor,45153		
+1990,Security Guard,1009311		
+1990,Taxi Cab Driver / Chauffeur,221055		
+1990,Typesetter,27338		
+1990,Veterinarian,38495		
+1990,Waiter / Waitress,356754		
