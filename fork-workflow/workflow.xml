@@ -254,7 +254,7 @@
 			</property>
 			<property>
 				<name>mapred.reducer.class</name>
-				<value>Fill$FilltReducer</value>
+				<value>Fill$FillReducer</value>
 			</property>
 			<property>
 				<name>mapred.output.key.class</name>
@@ -266,7 +266,7 @@
 			</property>
 			<property>
 				<name>mapred.input.dir</name>
-				<value>/fork/out7/part-00000</value>
+				<value>/fork/out6/part-00000</value>
 			</property>
 			<property>
 				<name>mapred.output.dir</name>
