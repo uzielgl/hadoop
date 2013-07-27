@@ -45,8 +45,10 @@ public class Fill {
         throws IOException {
 		
 			String line = "";
-			String ciudades= "";
-			//Obtenemos los datos
+			String header = "";
+			TreeMap<String, String> ciudades = new TreeMap<String, String>();	
+			
+			//Obtenemos los datos y los metemos a un treemap para que los ordene por ciudad
 			while( values.hasNext() ){
 				String[] tmp = values.next().toString().split(",");
 				String ciudad = tmp[0];
@@ -54,13 +56,18 @@ public class Fill {
 				String temperatura = tmp[2];
 				String fecha = tmp[3];
 				
-				line += fecha + "," + temperatura + ",";
-				
-				ciudades += ciudad +",";
+				ciudades.put( ciudad, tmp[1] + "," + tmp[2] + "," + tmp[3] );
+			}
+			
+			//Recorremos las ciudades y vamos imprimiendo
+			for( String ciudad: ciudades.keySet() ){
+				header += ciudad + ",,";
+				String[] temporal = ciudades.get( ciudad ).split(",");
+				line += temporal[2] + "," + temporal[1] + ",";
 			}
 	
 			if( c == 0){ //Imprimimos cabezera
-				output.collect( new Text( "Año," ), new Text( ciudades ) );
+				output.collect( new Text( "Año," ), new Text( header ) );
 				c++;
 			}
 			
