@@ -49,6 +49,7 @@ public class Oxford{
         throws IOException {
             String value = values.next().toString();
 			value = value.replace("@", "," );
+			value = value.replace("*", "" );
 			
 			output.collect( new Text( ciudad + "-" + key),  new Text( value ) );
             //output.collect( new Text( ciudad + "-" + key), new Text( max_month + "," + max_tmp ) );

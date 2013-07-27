@@ -200,9 +200,9 @@
 		<error to="fail"/>
 	</action>
 
-	<join name="join" to="fill"/>
+	<join name="join" to="pivot"/>
 
-	<action name="fill">
+	<action name="pivot">
 		<map-reduce>
 			<job-tracker>${jobTracker}</job-tracker>
 			<name-node>${nameNode}</name-node>
@@ -212,11 +212,11 @@
 		<configuration>
 			<property>
 				<name>mapred.mapper.class</name>
-				<value>Fill$FillMapper</value>
+				<value>Pivot$PivotMapper</value>
 			</property>
 			<property>
 				<name>mapred.reducer.class</name>
-				<value>Fill$FillReducer</value>
+				<value>Pivot$PivotReducer</value>
 			</property>
 			<property>
 				<name>mapred.output.key.class</name>
@@ -228,11 +228,49 @@
 			</property>
 			<property>
 				<name>mapred.input.dir</name>
-				<value>/fork/out1/part-00000,/fork/out2/part-00000</value>
+				<value>/fork/out1/part-00000,/fork/out2/part-00000,/fork/out3/part-00000,/fork/out4/part-00000,/fork/out5/part-00000</value>
 			</property>
 			<property>
 				<name>mapred.output.dir</name>
 				<value>/fork/out6</value>
+			</property>
+		</configuration>
+	</map-reduce>
+    <ok to="fill"/>
+    <error to="fail"/>
+  </action>
+  
+	<action name="fill">
+		<map-reduce>
+			<job-tracker>${jobTracker}</job-tracker>
+			<name-node>${nameNode}</name-node>
+			<prepare>
+				<delete path="${nameNode}/fork/out7"/>
+			</prepare>
+		<configuration>
+			<property>
+				<name>mapred.mapper.class</name>
+				<value>Fill$FillMapper</value>
+			</property>
+			<property>
+				<name>mapred.reducer.class</name>
+				<value>Fill$FilltReducer</value>
+			</property>
+			<property>
+				<name>mapred.output.key.class</name>
+				<value>org.apache.hadoop.io.Text</value>
+			</property>
+			<property>
+				<name>mapred.output.value.class</name>
+				<value>org.apache.hadoop.io.Text</value>
+			</property>
+			<property>
+				<name>mapred.input.dir</name>
+				<value>/fork/out7/part-00000</value>
+			</property>
+			<property>
+				<name>mapred.output.dir</name>
+				<value>/fork/out7</value>
 			</property>
 		</configuration>
 	</map-reduce>
